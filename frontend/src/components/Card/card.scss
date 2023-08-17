@@ -1,0 +1,22 @@
+.c-card {
+  max-width: 200px;
+  background-color: #628347;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  &--inactive {
+    background-color: #be2d2d;
+  }
+
+  &__header {
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+  }
+
+  &__img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+}

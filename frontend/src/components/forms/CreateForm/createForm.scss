@@ -1,0 +1,13 @@
+.c-create-form {
+  &__input {
+    &--error {
+      background-color: red;
+    }
+  }
+
+  &__img-label {
+    display: block;
+    max-width: 250px;
+    cursor: pointer;
+  }
+}
